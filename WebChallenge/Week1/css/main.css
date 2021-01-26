@@ -13,15 +13,12 @@ body{
     background-image: url('../images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
-    margin-top: 1.2rem;
-    overflow-x: hidden;
-    background-size: contain;
-    height: 100vh;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-
 .header{
+    margin-top: 1.2rem;
     width: 100%;
 }
 
@@ -38,57 +35,57 @@ body{
 
 .container__image {
     width: 100%;
-    margin-top: 2.5rem;
+    text-align: center;
 }
 
 .container__image img {
     width: 80%;
-    margin: 0 10%;
-}
-
-.container__image {
-    width: 100%;
-    display: flex;
 }
 
 .container__info {
     margin-top: 8rem;
     width: 100%;
     color: white;
-    text-align: center;
 }
 
 .container__info-title{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
+
+}
+
+.container__info-title h1{
+    margin: 0 auto;
     text-align: center;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .container__info-text {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    margin: 1rem  auto 0;
-    width: 70%;
-    font-size: 1.2rem;
-    text-align: center;
+    margin: 0 auto;
+    width: 75%;
 }
 
+.container__info-text p {
+    font-weight: 400;
+    margin: 1rem auto 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
 
 .container__info-button {
     margin-top: 2rem;
     width: 100%;
+    text-align: center;
 }
 
 .container__info-button button{
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
     color: #A74FC6;
-    padding: 1rem 0;
+    padding: 1.3rem 0;
     border-radius: 50px;
-    box-shadow: 1px 1px 1px  #b8b8ca47;
+    box-shadow: 2px 2px 2px  #f3f3f547;
     outline: none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -96,26 +93,21 @@ body{
 }
 
 .container__info-button button:hover{
-    padding: 1rem 0;
-    border-radius: 50px;
-    box-shadow: 2px 2px 2px  #6e6e7547;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     background-color: #c170df;
     color: white;
 }
 
 .footer{
-    margin-top: 4rem;
     width: 100%;
-    position: absolute;
     display: flex;
-    height: 6rem;
+    height: 10rem;
     justify-content: center;
+    align-items: center;
 }
 
 .footer ul{
+    margin-top: 3rem;
     list-style: none;
     display: flex;
     align-content: center;
@@ -127,7 +119,7 @@ body{
 
 .footer .footer__menu .fab{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border: 1px solid white;
     padding: 0.5em;
     border-radius: 50%;
@@ -136,12 +128,4 @@ body{
 .footer .footer__menu .fab:hover{
     color:  #ddb2ec;
     border: 1px solid #ddb2ec;
-}
-
-
-
-@media (min-width:600px){
-    body{
-        background-image: url('../images/bg-desktop.svg');
-    }
 }
