@@ -1,0 +1,131 @@
+/* ? Resetear CSS por defecto del navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    margin-top: 1.2rem;
+    width: 100%;
+}
+
+.header img{
+    padding: 3rem 2rem;
+    width: 40%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__image {
+    width: 100%;
+    text-align: center;
+}
+
+.container__image img {
+    width: 80%;
+}
+
+.container__info {
+    margin-top: 8rem;
+    width: 100%;
+    color: white;
+}
+
+.container__info-title{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.container__info-title h1{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.container__info-text {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.container__info-text p {
+    font-weight: 400;
+    margin: 1rem auto 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.container__info-button {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.container__info-button button{
+    width: 45%;
+    margin: 0 auto;
+    color: #A74FC6;
+    padding: 1.3rem 0;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px  #f3f3f547;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container__info-button button:hover{
+    font-size: 1.8rem;
+    background-color: #c170df;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul{
+    margin-top: 3rem;
+    list-style: none;
+    display: flex;
+    align-content: center;
+}
+
+.footer ul li a{
+    margin: 1rem;
+}
+
+.footer .footer__menu .fab{
+    color: white;
+    font-size: 1.4rem;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+.footer .footer__menu .fab:hover{
+    color:  #ddb2ec;
+    border: 1px solid #ddb2ec;
+}

@@ -1,0 +1,62 @@
+body{
+    background-image: url('../images/bg-desktop.svg');
+}
+
+.header img{
+    width: 15%;
+}
+
+.container__image {
+    margin-top: 7rem;
+    width: 55%;
+}
+
+.container__image img {
+    width: 90%;
+}
+
+.container__info {
+    margin-top: 12rem;
+    width: 45%;
+}
+
+.container__info-title, .container__info-text{
+    width: 80%;
+    margin: 0 0;
+}
+
+.container__info-title h1{
+    font-size: 4rem;
+    text-align: left;
+}
+
+.container__info-text p {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.container__info-button {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.container__info-button button{
+    margin: 0 auto;
+    font-size: 1.7rem;
+    width: 30%;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .footer__menu .fab{
+    font-size: 2rem;
+    padding: 0.5em;
+}
+
+.footer ul{
+    margin: 5rem 5rem 5rem 0;
+}

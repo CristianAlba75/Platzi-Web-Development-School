@@ -1,0 +1,27 @@
+.header img{
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.container__info-title h1{
+    font-size: 4rem;
+}
+
+.container__info-text p {
+    font-size: 1.9rem;
+}
+
+.container__info-button {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container__info-button button{
+    font-size: 1.9rem;
+    width: 30%;
+}
+
+.footer .footer__menu .fab{
+    font-size: 2.2rem;
+    padding: 0.5em;
+}
