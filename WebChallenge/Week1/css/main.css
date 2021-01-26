@@ -1,0 +1,144 @@
+/* ? Resetear CSS por defecto del navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    margin-top: 1.2rem;
+    overflow-x: hidden;
+    background-size: contain;
+    height: 100vh;
+}
+
+
+
+.header{
+    width: 100%;
+}
+
+.header img{
+    padding: 3rem 2rem;
+    width: 40%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__image {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.container__image img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.container__image {
+    width: 100%;
+    display: flex;
+}
+
+.container__info {
+    margin-top: 8rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.container__info-title{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.container__info-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 1rem  auto 0;
+    width: 70%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.container__info-button {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.container__info-button button{
+    width: 40%;
+    margin: 0 auto;
+    color: #A74FC6;
+    padding: 1rem 0;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px  #b8b8ca47;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container__info-button button:hover{
+    padding: 1rem 0;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px  #6e6e7547;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: #c170df;
+    color: white;
+}
+
+.footer{
+    margin-top: 4rem;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-content: center;
+}
+
+.footer ul li a{
+    margin: 1rem;
+}
+
+.footer .footer__menu .fab{
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+.footer .footer__menu .fab:hover{
+    color:  #ddb2ec;
+    border: 1px solid #ddb2ec;
+}
+
+
+
+
+
