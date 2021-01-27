@@ -18,17 +18,19 @@
 }
 
 .cards__center{
-    width: 35rem;
+    width: 40rem;
+    margin: 0 3rem;
 }
 
 .card{
-    width: 35rem;
+    width: 40rem;
     height: auto;
 }
 
 .card__supervisor{
     align-self: center;
     margin-right: 0;
+    order: 0;
 }
 
 .card__calculator{
