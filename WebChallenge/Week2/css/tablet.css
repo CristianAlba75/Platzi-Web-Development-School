@@ -1,0 +1,36 @@
+.header{
+    width: 50rem ;
+    padding: 6rem 0 3rem;
+    margin: 0 auto;
+}
+
+.header .header__title{
+    font-size: 3rem;
+}
+
+.header__title b{
+    font-size: 3.4rem;
+}
+
+.header .header__text{
+    margin-top: 2.5rem;
+    font-size: 1.6rem;
+}
+
+.cards__center{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card__supervisor{
+    order: 1;
+}
+
+.card{
+    width: 40rem;
+}
+
+.card p{
+    font-size: 1.6rem;
+}
