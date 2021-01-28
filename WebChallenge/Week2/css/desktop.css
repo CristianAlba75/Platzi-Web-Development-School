@@ -1,6 +1,6 @@
 .header{
-    width: 30%;
-    padding: 6rem 0;
+    width: 50rem;
+    padding: 6rem 0 0;
     margin: 0 auto;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .header .header__text{
-    margin-top: 2.5rem;
+    margin: 2.5rem 0;
     font-size: 1.6rem;
 }
 
@@ -39,7 +39,8 @@
 }
 
 .card p{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 200;
 }
 
 .card__icon{
