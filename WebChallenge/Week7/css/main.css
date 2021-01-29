@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    width: 100%;
+}
+
+.header__title{
+    width: 90%;
+    height: 7rem;
+    margin: 2rem auto 0;
+    background-color: rgb(183, 143, 223);
+}
+
+.header__mode{
+    width: 90%;
+    height: 4rem;
+    margin: 0 auto 0;
+    background-color: rgb(153, 175, 201);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 90%;
+    height: 19rem;
+    background-color: rgb(184, 137, 137);
+    margin: 2rem auto 0;
+
+}
+
+.card .card__user{
+    margin-top: 2rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 0;
+}
+
+.card .card__followers{
+    margin-top: 2rem;
+    background-color: green;
+    align-content: center;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.card .card__counter{
+    margin-top: 2rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 0;
+}
+
+.overview{
+    background-color: rgb(179, 179, 122);
+    width: 90%;
+    margin: 2rem auto 0;
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.container__cards-overview{
+    background-color: rgb(207, 110, 72);
+    width: 90%;
+    margin: 2rem auto 0;
+    height: 12rem;
+    display: flex;
+}
+
+.container__cards-overview .cards-overview__statistics{
+    background-color: rgb(163, 194, 214);
+    width: 50%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+}
+
+.container__cards-overview .cards-overview__network{
+    width: 50%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+
+.container__cards-overview .cards-overview__network .card-overview__counter{
+    display: flex;
+}
