@@ -2,19 +2,18 @@ body{
     background-image: url('../images/bg-desktop.png');
     background-position: absolute;
     background-position-y: 38rem;
+    background-color: hsl(229, 57%, 11%);
 }
 
 .container__actions{
     width: 25%;
     height: 24rem;
-    background-color: red;
     margin: 24rem 0rem 0rem 30rem;
 }
 
 .container__measurement{
     width: 35%;
     height: 19rem;
-    background-color: red;
     margin: 29rem 0rem 0 4rem;
 }
 
@@ -37,18 +36,18 @@ body{
 }
 
 .container__measurement .measurement__current{
-    border: 1px solid yellow;
     width: 16rem;
     margin: 2rem auto;
-    height: 5rem;
+    height: 6rem;
     position: absolute;
     top: 22rem;
     right: 35rem;
+    border-radius: 1rem 1rem 0 1rem;
 }
 
 .triangle{
     position: absolute;
-    top: 29rem;
+    top: 29.5rem;
     right: 35rem;
     width: 0;
     height: 0;

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1000px)">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -29,12 +31,17 @@
             </section>
             <section class="container__measurement">
                 <div class="measurement__text">
-                    <p>You've user <b>815 GB</b>of your storage.</p>
+                    <p>You've user <b>815 GB</b> of your storage.</p>
                 </div>
-                <div class="measurement__bar"></div>
+                <div class="measurement__bar">
+                    <div class="bar__used">
+                        <div class="bar__circle"></div>
+                    </div>
+                    <div class="bar__empty"></div>
+                </div>
                 <div class="measurement__values">
-                    <p class="values__min">0GB</p>
-                    <p class="values__max">1000GB</p>
+                    <b>0 GB</b>
+                    <b>1000 GB</b>
                 </div>
                 <div class="measurement__current">
                     <div class="current__number">

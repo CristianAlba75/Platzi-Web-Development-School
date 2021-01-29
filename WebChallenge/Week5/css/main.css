@@ -13,6 +13,7 @@ body{
     background-image: url('../images/bg-mobile.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -24,8 +25,9 @@ body{
 .container__actions{
     width: 90%;
     height: 18rem;
-    background-color: red;
+    background-color: hsl(228, 56%, 26%);
     margin: 12rem auto 0;
+    border-radius: 1rem 9rem 1rem 1rem;
 }
 
 .container__actions .title__logo img{
@@ -33,56 +35,98 @@ body{
 }
 
 .container__actions .actions__icons{
-    background-color: royalblue;
-    margin: 1rem 0 0 3rem;
+    margin: 2rem 0 0 3rem;
 }
 
 .actions__icons img{
-    background-color: greenyellow;
+    background-color: hsl(229, 57%, 11%);
     margin: 0 1rem;
     padding: 1.5rem;
     height: 5rem;
+    border-radius: 1rem;
 }
 
 .container__measurement{
     width: 90%;
     height: 16rem;
-    background-color: red;
+    background-color: hsl(228, 56%, 26%);
     margin: 2rem auto 0;
+    border-radius: 1rem;
 }
 
 .container__measurement .measurement__text{
-    background-color: blue;
     margin: 2rem auto 0;
     width: 90%;
     text-align: center;
+    color: hsl(243, 100%, 93%);
+    font-weight: 100;
 }
 
 .container__measurement .measurement__bar{
-    background-color: blue;
     margin: 2rem auto 0;
     width: 90%;
-    height: 2rem;
+    height: 2.4rem;
+    border-radius: 1rem;
+    display: flex;
+    background-color:hsl(229, 57%, 11%); ;
 }
 
+.measurement__bar .bar__used{
+    width: 75%;
+    background-image: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 2rem;
+    border-radius: 1rem;
+    margin: auto 0rem auto 0.2rem;
+
+}
+
+.measurement__bar .bar__empty{
+    width: 25%;
+    height: 2rem;
+    border-radius: 1rem 2rem 2rem 1rem;
+    margin: auto 0.2rem auto 0;
+
+}
+
+.measurement__bar .bar__circle{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    float: right;
+    margin: 0.25rem 0.3rem auto 0;
+}
 .container__measurement .measurement__values{
-    background-color: blue;
     margin: 1rem auto 0;
-    width: 26rem;
+    width: 92%;
     height: 2rem;
     display: flex;
     justify-content: space-between;
+    color: hsl(243, 100%, 93%);
+    font-size: 1.3rem;
 }
 
 .container__measurement .measurement__current{
-    border: 1px solid yellow;
     width: 16rem;
     margin: 2rem auto;
     height: 7rem;
     display: flex;
+    background-color: white;
+    border-radius: 1rem;
 }
 
 .measurement__current .current__number{
     width: 50%;
-    background-color: gray;
+    color: hsl(229, 57%, 11%);
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin: auto auto;
+    margin: auto 0 auto 2rem;
+}
+
+.measurement__current .current__text{
+    color :hsl(229, 7%, 55%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: auto 1.1rem auto 0;
 }
