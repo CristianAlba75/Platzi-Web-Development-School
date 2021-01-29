@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-image: url('../images/bg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__actions{
+    width: 90%;
+    height: 18rem;
+    background-color: red;
+    margin: 12rem auto 0;
+}
+
+.container__actions .title__logo img{
+    margin: 3rem 0 0 4rem;
+}
+
+.container__actions .actions__icons{
+    background-color: royalblue;
+    margin: 1rem 0 0 3rem;
+}
+
+.actions__icons img{
+    background-color: greenyellow;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    height: 5rem;
+}
+
+.container__measurement{
+    width: 90%;
+    height: 16rem;
+    background-color: red;
+    margin: 2rem auto 0;
+}
+
+.container__measurement .measurement__text{
+    background-color: blue;
+    margin: 2rem auto 0;
+    width: 25rem;
+    text-align: center;
+}
+
+.container__measurement .measurement__bar{
+    background-color: blue;
+    margin: 2rem auto 0;
+    width: 90%;
+    height: 2rem;
+}
+
+.container__measurement .measurement__values{
+    background-color: blue;
+    margin: 1rem auto 0;
+    width: 26rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__measurement .measurement__current{
+    border: 1px solid yellow;
+    width: 16rem;
+    margin: 2rem auto;
+    height: 7rem;
+    display: flex;
+}
+
+.measurement__current .current__number{
+    width: 50%;
+    background-color: gray;
+}
