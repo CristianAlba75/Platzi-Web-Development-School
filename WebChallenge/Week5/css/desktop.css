@@ -1,0 +1,58 @@
+body{
+    background-image: url('../images/bg-desktop.png');
+    background-position: absolute;
+    background-position-y: 38rem;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.container__actions{
+    width: 25%;
+    height: 24rem;
+    margin: 24rem 0rem 0rem 30rem;
+}
+
+.container__measurement{
+    width: 35%;
+    height: 19rem;
+    margin: 29rem 0rem 0 4rem;
+}
+
+.container__actions .actions__icons{
+    margin: 5rem 0 0 2rem;
+}
+
+.actions__icons img{
+    height: 5rem;
+}
+
+.container__measurement .measurement__text{
+    margin: 5rem 0  0 3rem;
+    width: 90%;
+    text-align: left;
+}
+
+.container__measurement .measurement__values{
+    width: 92%;
+}
+
+.container__measurement .measurement__current{
+    width: 16rem;
+    margin: 2rem auto;
+    height: 6rem;
+    position: absolute;
+    top: 22rem;
+    right: 35rem;
+    border-radius: 1rem 1rem 0 1rem;
+}
+
+.triangle{
+    position: absolute;
+    top: 29.5rem;
+    right: 35rem;
+    width: 0;
+    height: 0;
+    border-right: 1.1rem solid white;
+    border-top: 1rem solid white;
+    border-left: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+}
