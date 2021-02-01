@@ -1,0 +1,17 @@
+.card, .card-overview {
+    width: 29rem;
+}
+
+.header__title{
+    border-bottom: 0;
+}
+
+.header__title h1{
+    font-size: 3rem;
+}
+
+
+.header__title b{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
