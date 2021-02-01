@@ -1,0 +1,30 @@
+
+.header__title{
+    width: 80%;
+}
+
+.header__mode{
+    width: 80%;
+}
+
+.container__cards{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 30rem;
+}
+
+.overview{
+    width: 80%;
+}
+
+.container__cards-overview{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-overview{
+    width: 30rem;
+}
